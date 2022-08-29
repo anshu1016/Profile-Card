@@ -9,7 +9,7 @@ import Footer from "./footer";
 export default function App() {
   return (
     <div className="container">
-      <Profile />
+      <Profile/>
       <Bio />
       <Social />
       <Main />
