@@ -6,7 +6,7 @@ export default function Main() {
       <h2>About</h2>
       <p>
         Arun has just started learning web Development. He is working in Nagarro
-        for two months. He is also pursuing MCA from Chandigarh University.
+        as a IT Supprt. He is also pursuing MCA from Chandigarh University.
       </p>
       <br />
       <h2>Projects</h2>
