@@ -5,8 +5,8 @@ export default function Main() {
     <div className="main">
       <h2>About</h2>
       <p>
-        I has just started learning web Development. I am working in Nagarro
-        as an IT Supprt. I am also pursuing MCA from Chandigarh University.
+        I have just started learning web Development. I am working in Nagarro
+        . I am also pursuing MCA from Chandigarh University.
       </p>
       <br />
       <h2>Projects</h2>
