@@ -1,5 +1,5 @@
 import React from "react"
-import "./styles.css";
+import "./style.css";
 import Profile from "./profile";
 import Bio from "./bio";
 import Social from "./social";

@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <div className="sociial-media">
-      <a href="https://www.facebook.com/arun.shukla.1865904" target="_blank">
+      <a href="https://www.facebook.com/arun.shukla.1865904/" target="_blank">
         <i className="fab fa-facebook"></i>
       </a>
       <a href="https://twitter.com/ArunShu47012704" target="_blank">
