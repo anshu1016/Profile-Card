@@ -10,7 +10,7 @@ export default function Footer() {
         <i className="fab fa-twitter"></i>
       </a>
       <a
-        href="https://wa.me/6239419039/?text=Hi, I am Arun.. Let's Chat"
+        href="https://wa.me/+916239419039/?text=Hi, I am Arun.. Let's Chat"
         target="_blank"
       >
         <i className="fab fa-whatsapp"></i>
