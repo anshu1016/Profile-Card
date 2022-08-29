@@ -1,0 +1,191 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: #23252c;
+}
+.container {
+  background-color: white;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 2rem;
+  box-shadow: 0px 1rem 1.5rem rgba(black, 0.5);
+  margin: auto;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 6px;
+  margin-bottom: 1px;
+}
+.profile-img {
+  width: 45%;
+}
+.bio {
+  display: block;
+  text-align: center;
+  margin-bottom: 0;
+}
+.bio > h2 {
+  color: red;
+  margin-bottom: 1px;
+  font-weight: bolder;
+}
+.bio > h4 {
+  font-weight: bolder;
+  font-style: italic;
+  margin-top: 1px;
+  margin-bottom: 2px;
+}
+.bio > h5 {
+  font-weight: bolder;
+  font-style: italic;
+  margin-top: 2px;
+  padding: 1px;
+}
+.bio > h5 > a {
+  color: red;
+  padding: 1px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.bio > h5 > a > i {
+  width: 2px;
+  height: 2px;
+  padding: 1px;
+  cursor: pointer;
+  color: black;
+  font-size: 11px;
+}
+.Social-btn {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  box-sizing: border-box;
+  margin-top: 2px;
+  gap: 9px;
+}
+.btn1 {
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+.btn2 {
+  background: ;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+.btn1 > a {
+  text-decoration: none;
+  padding: 4px;
+  line-height: 18px;
+  font-size: medium;
+  font-weight: bold;
+}
+.btn2 > a {
+  text-decoration: none;
+  padding: 4px;
+  line-height: 18px;
+  font-size: medium;
+  font-weight: bold;
+}
+.btn1:hover {
+  background-color: #f14843;
+}
+.btn1:hover > a > i {
+  color: white;
+}
+.btn1:hover > a > i {
+  font-size: 18px;
+}
+.btn2:hover {
+  background-color: #3b5998;
+}
+.btn2:hover > a {
+  color: white;
+}
+.btn2:hover > a > i {
+  font-size: 18px;
+}
+.main {
+  display: block;
+  max-width: 300px;
+  text-align: justify;
+  margin: auto;
+}
+.main > h2 {
+  color: red;
+  margin-top: 2px;
+  margin-left: 4px;
+  line-height: 150%;
+  margin-bottom: 0;
+}
+.main > p {
+  margin-top: 2px;
+  margin-bottom: 0;
+  font-style: normal;
+  font-size: 17px;
+  font-weight: 400;
+  color: black;
+  padding: auto;
+  margin-left: 3px;
+  line-height: 150%;
+}
+.main > p > a {
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+  color: maroon;
+}
+.sociial-media {
+  display: flex;
+  justify-content: center;
+  background-color: maroon;
+  margin-top: 1rem;
+  padding: 0.7rem;
+}
+.sociial-media > a {
+  display: flex;
+  background: #e3edf7;
+  height: 35px;
+  width: 35px;
+  margin: 0 15px;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+
+  border: 1px solid rgba(0, 0, 0, 0);
+  transition: transform 0.5s;
+}
+.sociial-media > a > i {
+  font-size: 25px;
+  color: #777;
+  transition: transform 0.5s;
+}
+.sociial-media > a:hover {
+  border: 1px solid rgba(0, 0, 0, 0.01);
+  transform: translateY(2px);
+}
+.sociial-media > a:hover > i {
+  transform: scale(0.9);
+}
+
+.sociial-media > a:hover > .fa-facebook {
+  color: #3b5998;
+}
+.sociial-media > a:hover > .fa-twitter {
+  color: #00acee;
+}
+.sociial-media > a:hover > .fa-whatsapp {
+  color: #4fce5d;
+}
+.sociial-media > a:hover > .fa-instagram {
+  color: #f14843;
+}
