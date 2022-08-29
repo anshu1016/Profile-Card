@@ -5,14 +5,14 @@ export default function Main() {
     <div className="main">
       <h2>About</h2>
       <p>
-        Arun has just started learning web Development. He is working in Nagarro
-        as a IT Supprt. He is also pursuing MCA from Chandigarh University.
+        I has just started learning web Development. I am working in Nagarro
+        as a IT Supprt. I am also pursuing MCA from Chandigarh University.
       </p>
       <br />
       <h2>Projects</h2>
       <p>
-        Arun has created some projects while learning Web Development. You can
-        see his projects by{" "}
+        I have created some projects while learning Web Development. You can
+        see my projects {" "}
         <a
           href="https://arunshukla.netlify.app/project.html"
           target="_blank"
